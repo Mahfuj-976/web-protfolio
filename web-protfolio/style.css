@@ -43,6 +43,9 @@
     font-weight: 700;
     color: #181818;
 }
+.text-center{
+    text-align: center;
+}
 
 /* header style */
 .header {
@@ -110,9 +113,10 @@ nav {
 }
 
 /* main style */
-main {
+section {
     max-width: 1140px;
     margin: 0 auto;
+    /* background-color: #FFF8F3; */
 }
 
 /* about style */
@@ -155,4 +159,90 @@ margin-bottom: 30px;
     font-size: 15px;
     align-items: center;
     margin-top: 0px;
+}
+
+/* skill section */
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.skill-container{
+background-color: rgb(247, 246, 246);
+padding: 30px;
+text-align: justify;
+max-width: 267px;
+border-radius: 5px;
+}
+.sectoin-description{
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 30px 116px 50px;
+}
+
+/* resume style */
+.resume-body{
+    display:flex;;
+    justify-content: space-between;
+    gap: 50px;
+}
+.resume-part{
+    display:flex;
+    flex-direction:column;
+
+}
+.part-heading{
+    font-size: 30px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.degree-name{
+    font-size: 25px;
+font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.degree-inst{
+    font-size: 20px;
+font-weight: 600;
+color: rgb(117, 117, 117);
+margin-bottom: 20px;
+}
+.degree-des{
+    font-size: 16px;
+font-weight: 400;
+color: rgb(117, 117, 117);
+margin-bottom: 29px;
+}
+.cv-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* footer style */
+.footer-part{
+    display:flex;
+    justify-content: space-between;
+    padding:130px 230px;
+    gap: 120px;
+    margin: 113px;
+}
+.connect-des{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(71, 71, 71) ;
+    
+}
+form{
+    display: block;
+}
+input[type="email"],
+input[type="text"] {
+    border-radius: 5px;
+background: rgb(255, 255, 255);
+border: none;
+margin-bottom: 24px;
+padding: 20px 25px;
+width: 100%;
 }
